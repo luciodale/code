@@ -2,4 +2,10 @@
 
 The relevant code is located in `lu.code/src/lu/code/core.clj`.
 
-To run the project in dev mode start a REPL within the `lu.code` directory.
+To run the project in dev mode start an nREPL within the `lu.code` directory. From the command line, you can run:
+
+* `cd code/lu.code/`
+
+* `../bin/rebel -A:dev`
+
+* `(go)`
