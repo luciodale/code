@@ -1,0 +1,7 @@
+{:ig/system
+ {:lu.code.core/resource "Hello!"
+  :edge.yada.ig/listener {:handler #ig/ref :edge.bidi.ig/vhost
+                          :port 5151}
+  :edge.bidi.ig/vhost [["http://localhost:5151"
+                        [""
+                         [["/" #ig/ref :lu.code.core/resource]]]]]}}
